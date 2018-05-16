@@ -1,5 +1,5 @@
 'use strict';
-import * as templates from '../es6templates.js';
+import * as templates from './es6templates.js';
 
 var main = document.querySelector('main');
 var view;
