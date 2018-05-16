@@ -1,0 +1,38 @@
+{
+  "name": "es6templates",
+  "version": "0.0.1",
+  "description": "Use simple HTML files and ES6 template strings to build web applications without a ton of dependecies, special files, or preloaders. Power of native browser templating. ",
+  "main": "es6templates.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bajjy/es6templates.git"
+  },
+  "keywords": [
+    "ES6",
+    "templating",
+    "template",
+    "strings",
+    "template",
+    "expression",
+    "HTML",
+    "templates",
+    "native",
+    "templates",
+    "light",
+    "tiny",
+    "javascript",
+    "ecmascript6"
+  ],
+  "author": "Constantine Dobrovolskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bajjy/es6templates/issues"
+  },
+  "homepage": "https://github.com/bajjy/es6templates#readme"
+}

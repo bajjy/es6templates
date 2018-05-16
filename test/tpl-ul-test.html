@@ -1,0 +1,15 @@
+<ul>
+    ${(() => {
+        var lol = '';
+        newData.map(item => {
+            lol += `
+            <li>
+                <a href="${item.link}" class="title" title="${item.title}">${item.title}</a>
+                <div class="price">${item.symbol + ' ' + item.price}</div>
+                <i class="" data-remove="${item.id}">remove: ${item.id}</i>
+            </li>
+            `
+        })
+        return lol
+    })()}
+</ul>
