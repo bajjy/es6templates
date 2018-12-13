@@ -3,8 +3,15 @@ Constantine Dobrovolskiy bajjy.com
 This library was created to show all the power of ES6, which is supported by all modern browsers. No frames are no longer needed. Under 50 lines of code and you get rid of vendorlock, you will not have to pull billions of dependencies, use special type files or preloaders.
 
 Article on my website: [es6 templates](http://bajjy.com/es6-templates.html)
+## nodejs
+import templates and run templates
+```javascript
+import { Templates } from './modules/class.es6templates';
+var tpl = new Templates('/from/html', '/to', '/from/html/includes') //includes is folder with header, footer or other modules
+tpl.first()
+```
 
-## Start
+## Use in js
 Just add a script to your projecs as a `ES6 module`
 ```javascript
 <script src="es6templates.js" type="module"></script>
