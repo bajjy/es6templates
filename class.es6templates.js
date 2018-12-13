@@ -1,7 +1,5 @@
 import { default as path } from 'path'
 import { default as fs } from 'fs'
-import { Markdown } from './class.markdown'
-import consolecolors from './module.consolecolors'
 
 var tpl;
 var raw;
@@ -9,9 +7,7 @@ var data;
 var privateRoot;
 var privateOutput;
 var privateIncludes;
-var middlewares = {
-    markdown: Markdown
-}
+
 function ensureDirectoryExistence(dirPath) {
     var dirname = path.dirname(dirPath);
     if (fs.existsSync(dirname)) {

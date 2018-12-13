@@ -1,13 +1,3 @@
-// basic loop
-//
-// ${(() => {
-//     var lol = '';
-//     for (let [key, value] of Object.entries(newData)) {
-//         lol += `<div><label for="${key}">${key}</label><input type="text" name="${key}" value="${value}"></div>`
-//     }
-//     return lol
-// })()}
-
 var tpl;
 var newData;
 var middlewares = {};
