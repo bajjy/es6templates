@@ -69,8 +69,20 @@ But whole power of this approach are in the functions. Here is simple repeat fun
     })()}
 </div>
 ```
+### Client side Middlewares
+Now middlewares can be used on client side
+```javascript
+import * as templates from 'es6templates.js';
 
-### Middlewares
+var repl = (te) => {
+  te = te.replace('class-to-remove', 'rp');
+  return te
+};
+var test = templates.include('/tpl/list.html', list, repl);
+
+test.then(html => console.log(html))
+```
+### Server side Middlewares
 You can use any middleware fuctions to do even more with templates:
 ```javascript
 import {default as markdown} from 'markdown-it';
